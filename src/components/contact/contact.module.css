@@ -1,0 +1,130 @@
+.mainContainer {
+     display: flex;
+     flex-direction: column;
+     width: 100vw;
+     height: 1600px;
+     font-family: 'Assistant', sans-serif;
+}
+
+.mapContainer {
+     width: 100vw;
+     height: 425px;
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 75px;
+     padding-bottom: 75px;
+     background: gray;
+}
+
+.contactMethods {
+     display: flex;
+     column-gap: 100px;
+     line-height: 1.4;
+}
+
+.contactText {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+
+.contactText i {
+     font-size: 3.5rem;
+     color: yellow;
+}
+
+.contactText span {
+     font-size: 1.5rem;
+     text-transform: uppercase;
+     font-weight: bold;
+}
+
+.center {
+     display: flex;
+     justify-content: center;
+     padding-top: 50px;
+}
+
+.container {
+     height: 100px;
+     width: 700px;
+}
+
+.image {
+     position: relative;
+}
+
+.image:before {
+     content: '';
+     display: block;
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     opacity: 0.4;
+     background-image: url(../../images/contact\ background.jpeg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 100%;
+}
+
+.title {
+     position: relative;
+     font-size: 2rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 300px;
+     text-transform: uppercase;
+}
+
+.formContainer {
+     padding-top: 25px;
+     border: 1px solid #000;
+}
+
+.formColumn {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.formColumn label {
+     margin-top: 10px;
+     font-size: 1.25rem;
+     font-weight: bold;
+}
+
+.formColumn input {
+     width: 75%;
+     height: 30px;
+     font-size: 1rem;
+     outline: none;
+     border: none;
+     border-bottom: 1.5px solid #000;
+     background: transparent;
+     margin-top: 20px;
+}
+
+textarea {
+     width: 525px;
+     height: 200px;
+     font-size: 1rem;
+     outline: none;
+     border: none;
+     margin-top: 20px;
+}
+
+.leaflet_container {
+     width: 400px;
+     height: 400px;
+}
+
+.submitBtn {
+     padding: 10px;
+     margin-top: 15px;
+     margin-bottom: 15px;
+}

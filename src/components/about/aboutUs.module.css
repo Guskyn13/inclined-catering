@@ -1,0 +1,55 @@
+.about {
+     display: flex;
+     flex-direction: column;
+     height: 1300px;
+     margin-top: 175px;
+}
+
+.img {
+     display: flex;
+     width: 100vw;
+     height: 750px;
+     justify-content: center;
+     align-items: center;
+}
+
+.team_img {
+     width: 75%;
+     height: 700px;
+     max-width: 100%;
+     padding-top: 30px;
+     justify-content: center;
+     align-items: center;
+
+}
+
+.main_container {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100vw;
+     max-height: 200px;
+     font-family: 'Assistant', sans-serif;
+     margin-top: 130px;
+}
+
+.about_container {
+     width: 200px;
+     font-size: 1.5rem;
+}
+
+.about_container h3 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 60%;
+     padding: auto;
+     border-bottom: 3px solid #F1A638;
+}
+
+.right {
+     float: right;
+     width: 40%;
+     margin-left: 200px;
+     font-size: 1.5rem;
+}

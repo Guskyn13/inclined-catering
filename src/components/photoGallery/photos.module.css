@@ -1,0 +1,17 @@
+.photoContainer {
+     height: auto;
+     width: 100vw;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     /* flex-basis: 90%; */
+     padding-top: 40px;
+}
+
+.photo {
+     height: 200px;
+     width: 200px;
+     object-position: center;
+     padding: 15px;
+     /* border: 5px solid gray; */
+}

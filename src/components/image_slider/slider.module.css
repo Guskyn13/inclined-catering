@@ -1,0 +1,52 @@
+.slider {
+     position: relative;
+     height: 350px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100vw;
+     padding-top: 100px;
+}
+
+.header {
+     font-family: 'Dancing Script', cursive;
+     font-size: 3rem;
+     padding-top: 20px;
+     margin-bottom: 90px;
+}
+
+.imageSlider {
+     position: relative;
+}
+
+.image {
+     height: 500px;
+     width: 800px;
+}
+
+.right_arrow {
+     opacity: 0.5;
+     position: absolute;
+     top: 50%;
+     right: 0;
+     font-size: 3.5rem;
+     z-index: 10;
+     cursor: pointer;
+     user-select: none;
+}
+.left_arrow {
+     opacity: 0.5;
+     position: absolute;
+     top: 50%;
+     left: 0;
+     font-size: 3.5rem;
+     z-index: 10;
+     cursor: pointer;
+     user-select: none;
+}
+
+.left_arrow:hover,
+.right_arrow:hover {
+     opacity: 1;
+}

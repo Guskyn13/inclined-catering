@@ -1,0 +1,51 @@
+.btns {
+     width: 100%;
+     height: 150px;
+     align-items: center;
+     justify-content: center;
+     padding-top: 30px;
+}
+
+.btnContainer {
+     display: flex;
+     justify-content: space-evenly;
+     text-align: center;
+}
+
+.selectBtn {
+     width: 250px;
+     height: 150px;
+     font-size: 1.5rem;
+     padding: 20px;
+     border-radius: 20px;
+
+}
+
+.menu {
+     border: 2px solid #000;
+     color: #000;
+     text-decoration: none;
+     font-size: 2rem;
+     font-family: 'Assistant', sans-serif;
+     padding: 25px;
+     border-radius: 5px;
+     transition-duration: 2s;
+}
+
+.menu:hover {
+    background-color: rgba(255, 199, 0, 1); 
+}
+
+.cat {
+     color: #000;
+     text-decoration: none;
+     font-size: 1.5rem;
+     padding: 10px;
+     border-radius: 20px;
+     font-family: 'Assistant', sans-serif;
+     transition-duration: 1s;
+}
+
+.cat:hover {
+     color: rgba(255, 199, 0, 1);
+}

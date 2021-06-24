@@ -1,0 +1,45 @@
+.navbar {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100vw;
+     height: 300px;
+     max-width: 100%;
+     font-family: 'Assistant', sans-serif;
+}
+
+.navbar img {
+     display: flex;
+     justify-content: center;
+     width: 100px;
+     height: 100px;
+     padding-top: 10px;
+}
+
+ul {
+     list-style: none;
+     display: flex;
+     justify-content: center;
+}
+
+ul li a {
+     text-decoration: none;
+     padding: 0 20px;
+     color: #000;
+     font-size: 1.25rem;
+     text-transform: uppercase;
+     font-weight: bold;
+}
+
+.social_icons {
+     display: flex;
+     justify-content: center;
+}
+
+.social_icons a {
+     padding: 0 15px;
+     font-size: 30px;
+     padding-top: 15px;
+     color: #000;
+}
+
