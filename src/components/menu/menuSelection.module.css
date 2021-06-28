@@ -22,8 +22,8 @@
 }
 
 .menu {
-     border: 2px solid #000;
-     color: #000;
+     border: 2px solid #fff;
+     color: #fff;
      text-decoration: none;
      font-size: 2rem;
      font-family: 'Assistant', sans-serif;
@@ -37,7 +37,7 @@
 }
 
 .cat {
-     color: #000;
+     color: #fff;
      text-decoration: none;
      font-size: 1.5rem;
      padding: 10px;

@@ -2,25 +2,24 @@
      display: flex;
      flex-direction: column;
      height: 1300px;
-     margin-top: 175px;
+     padding-top: 150px;
+     background: #000;
+}
+
+.aboutSection {
+     width: 100vw;
+     height: 750px;
+     position: relative;
 }
 
 .img {
-     display: flex;
-     width: 100vw;
-     height: 750px;
-     justify-content: center;
-     align-items: center;
-}
-
-.team_img {
-     width: 75%;
-     height: 700px;
-     max-width: 100%;
-     padding-top: 30px;
-     justify-content: center;
-     align-items: center;
-
+     background-image: url(../../images/Josh_Team.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: contain;
+     width: 100%;
+     height: 100%;
+     position: relative;
 }
 
 .main_container {
@@ -34,8 +33,10 @@
 }
 
 .about_container {
-     width: 200px;
-     font-size: 1.5rem;
+     width: 400px;
+     font-size: 3rem;
+     color: #fff;
+     /* padding-top: 200px; */
 }
 
 .about_container h3 {
@@ -52,4 +53,5 @@
      width: 40%;
      margin-left: 200px;
      font-size: 1.5rem;
+     color: #fff;
 }

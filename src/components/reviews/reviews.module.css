@@ -1,8 +1,9 @@
 .mainContainer {
      width: 100vw;
      height: 500px;
-     padding-top: 225px;
-     padding-bottom: 10px;
+     /* padding-top: 225px; */
+     /* padding-bottom: 10px; */
+     background: #000;
 }
 
 .swiperWrapper {
@@ -12,7 +13,7 @@
 .slide {
      border: 1px solid black;
      padding-top: 5px;
-     margin-top: 100px;
+     margin-top: 50px;
      margin-bottom: 100px;
      padding-left: 10px;
      padding-right: 15px;

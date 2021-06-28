@@ -4,7 +4,7 @@ import Navbar from '../components/navbar/navbar'
 import menuItems from '../components/menu/menuData'
 
 
-export default function PlatedMenu() {
+export default function Amuse() {
      return (
           <>
                <div className={classes.mainContainer}>

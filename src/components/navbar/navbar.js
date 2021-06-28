@@ -9,9 +9,9 @@ export default function Navbar({ setSelectedImg }) {
                <div className={classes.navbar}>
                     <img src={logo} className={classes.logo} alt="inclined catering logo" />
                     <ul className={classes.nav}>
-                         <li><a href="/" >Reviews</a></li>
-                         <li><a href="/" >Menus</a></li>
-                         <li><a href="/" >About</a></li>
+                         <li><a href="#reviews" >Reviews</a></li>
+                         <li><a href="#menus" >Menus</a></li>
+                         <li><a href="#about" >About</a></li>
                          <li>
                               <Link to={{
                                    pathname: '/PhotoGallery',

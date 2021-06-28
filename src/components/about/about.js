@@ -1,17 +1,29 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import aboutUs from './aboutUs.module.css'
 import team from '../../images/Josh_Team.jpg'
 
 export default function About() {
+     const [offsetY, setOffsetY] = useState(27000);
+     const handleScroll = () => setOffsetY(window.pageYOffset);
+
+     useEffect(() => {
+          window.addEventListener("scroll", handleScroll);
+
+          return () => window.removeEventListener("scroll", handleScroll);
+     }, []);
+
      return (
           <>
-          <div className={aboutUs.about}>
-          <div className={aboutUs.img}>
-          <img src={team} className={aboutUs.team_img} alt="" />
+          <div className={aboutUs.about} id='about'>
+               <div className={aboutUs.aboutSection}>
+                    <div 
+                         className={aboutUs.img} 
+                         >
           </div>
+                    </div>
           <div className={aboutUs.main_container}>
                <div className={aboutUs.about_container}>
-                    <h3>About us</h3>
+                    <h3>About Us</h3>
                     </div>
                     <div className={aboutUs.right}>
                     <p>

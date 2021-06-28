@@ -4,7 +4,7 @@ import Navbar from '../components/navbar/navbar'
 import menuItems from '../components/menu/menuData'
 
 
-export default function Dessert() {
+export default function DessertMenu() {
      return (
           <>
                <div className={classes.mainContainer}>

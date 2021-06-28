@@ -1,5 +1,23 @@
 .mainContainer {
+     display: flex;
+     flex-direction: column;
      width: 100vw;
+     justify-content: center;
+}
+
+.heroSection {
+     width: 100vw;
+     height: 100vh;
+     background-color: #161616;
+}
+
+.background {
+     background-image: url('../images/inclined_catering.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 100%;
+     position: absolute;
 }
 
 .titleContainer {
@@ -49,6 +67,62 @@
      transform: translateY(-10px);
      
      box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
+}
+
+.aboutSection {
+     display: flex;
+     flex-direction: column;
+     background: #161616;
+     height: 1300px;
+     width: 100vw;
+     justify-content: center;
+     align-items: center;
+     padding-top: 100px;
+     /* position: absolute; */
+}
+
+.aboutBG {
+     background-image: url(../images/Josh_Team.jpg);
+     width: 80%;
+     height: 70%;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: contain;
+     position: absolute;
+}
+
+.aboutContainer {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100vw;
+     max-height: 200px;
+     font-family: 'Assistant', sans-serif;
+     margin-top: 130px;
+     padding-top: 400px;
+}
+
+.title {
+     width: 400px;
+     font-size: 3rem;
+     color: #fff;
+}
+
+.title h3 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 60%;
+     padding: auto;
+     border-bottom: 3px solid #F1A638;
+}
+
+.right {
+     float: right;
+     width: 40%;
+     margin-left: 200px;
+     font-size: 1.5rem;
+     color: #fff;
 }
 
 button {

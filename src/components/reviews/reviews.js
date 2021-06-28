@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/swiper-bundle.css';
 import { ReviewsData } from './reviewsData'
@@ -7,17 +7,22 @@ import 'swiper/swiper.scss';
 import "swiper/components/effect-coverflow/effect-coverflow.min.css"
 import "swiper/components/pagination/pagination.min.css"
 import SwiperCore, { Pagination, Navigation } from 'swiper/core';
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 export default function Reviews() {
      SwiperCore.use([Navigation, Pagination]);
 
+     useEffect(() => {
+          Aos.init()
+     }, [])
+
      return (
           <>
-               <div className={reviews.mainContainer}>
+               <div className={reviews.mainContainer} id="reviews">
                     {/* <h1 className={reviews.title}>Reviews</h1> */}
                     <div className={reviews.swiperContainer}>
-                         <div className={reviews.swiperWrapper}>
+                         <div data-aos="fade" data-aos-offset="300" data-aos-easing="linear" data-aos-duration="1200" className={reviews.swiperWrapper}>
                               <Swiper
                                    slidesPerView={4}
                                    spaceBetween={50}
