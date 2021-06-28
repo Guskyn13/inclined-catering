@@ -1,3 +1,66 @@
+.mainMDMContainer {
+     display: flex;
+     flex-direction: column;
+     height: 2200px;
+     overflow-y: hidden;
+     overflow-x: hidden;
+     justify-content: center;
+}
+.cardMDMContainer {
+     height: 100%;
+     width: 100%;
+     padding-top: 70px;
+     padding-bottom: 50px;
+     padding-left: 50px;
+}
+
+.mainDOContainer {
+     display: flex;
+     flex-direction: column;
+     height: 1800px;
+     overflow-x: hidden;
+     justify-content: center;
+}
+.cardDOContainer {
+     height: 100%;
+     width: 100%;
+     padding-top: 70px;
+     padding-bottom: 50px;
+     padding-left: 50px;
+     overflow-y: hidden;
+     overflow-x: hidden;
+}
+
+.mainAContainer {
+     overflow-y: hidden;
+     overflow-x: hidden;
+     height: 100vh;
+}
+
+.mainFishContainer {
+     overflow-y: hidden;
+     overflow-x: hidden;
+     height: 100vh;
+}
+
+.mainMeatContainer {
+     overflow-y: hidden;
+     overflow-x: hidden;
+     height: 100vh;
+}
+
+.mainSoupContainer {
+     overflow-y: hidden;
+     overflow-x: hidden;
+     height: 100vh;
+}
+
+.mainSushiContainer {
+     overflow-y: hidden;
+     overflow-x: hidden;
+     height: 100vh;
+}
+
 .mainContainer {
      display: flex;
      flex-direction: column;
@@ -21,12 +84,14 @@
 }
 
 .titleContainer {
+     font-family: 'Dancing Script', cursive;
      width: 100vw;
      height: 75px;
-     font-size: 1.5rem;
+     font-size: 3rem;
      display: flex;
      justify-content: center;
-     padding-bottom: 50px;
+     padding-top: 50px;
+     padding-bottom: 125px;
 }
 
 .cardContainer {
@@ -65,8 +130,7 @@
 
 .article:hover {
      transform: translateY(-10px);
-     
-     box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
+     box-shadow: 2px 2px 26px 0px #F3A610;
 }
 
 .aboutSection {
@@ -78,7 +142,6 @@
      justify-content: center;
      align-items: center;
      padding-top: 100px;
-     /* position: absolute; */
 }
 
 .aboutBG {
@@ -114,7 +177,7 @@
      align-items: center;
      width: 60%;
      padding: auto;
-     border-bottom: 3px solid #F1A638;
+     border-bottom: 3px solid #F3A610;
 }
 
 .right {

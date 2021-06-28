@@ -19,8 +19,12 @@ export default function Contact() {
 
      return (
           <>
-               <div className={contact.mainContainer}>
-                    <div className={contact.mapContainer}>
+               <div className={contact.mainContainer}id="contact">
+                    <div 
+                         className={contact.mapContainer}
+                         data-aos="slide-right"
+                         data-aos-easing="linear"
+                         data-aos-duration="1000">
                          <Map
                               className={contact.leaflet_container}
                               center={[39.73705, -105.00857]}
@@ -28,12 +32,12 @@ export default function Contact() {
                          >
                               <TileLayer
                                    attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                                   url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                              />
+                                   url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
                               <Marker position={[39.73705, -105.00857]}
                               />
                          </Map>
-                         <div className={contact.contactMethods}>
+                         <div className={contact.contactMethods}
+                              >
                               <div className={contact.contactText}>
                                    <i class="fas fa-envelope-open-text"></i><br></br>
                                    <span>Message Us</span>

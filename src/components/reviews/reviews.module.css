@@ -1,8 +1,6 @@
 .mainContainer {
      width: 100vw;
      height: 500px;
-     /* padding-top: 225px; */
-     /* padding-bottom: 10px; */
      background: #000;
 }
 
@@ -24,7 +22,7 @@
      border-radius: 5px;
      background: rgba(94, 91, 91, 1);
      font-family: 'Assistant', sans-serif;
-     box-shadow: 2px -3px 25px 3px rgba(241, 199, 49, 1);
+     box-shadow: 2px -3px 25px 3px #F3A610;
 }
 
 .profilePic {

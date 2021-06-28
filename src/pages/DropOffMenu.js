@@ -1,18 +1,14 @@
-import { Link } from 'react-router-dom'
 import classes from './pages.module.css'
-import Navbar from '../components/navbar/navbar'
 import menuItems from '../components/menu/menuData'
-
 
 export default function DropOffMenu() {
      return (
           <>
-               <div className={classes.mainContainer}>
-                    <Navbar />
+               <div className={classes.mainDOContainer}>
                     <div className={classes.titleContainer}>
                          <h1>Drop Off Menu</h1>
                     </div>
-                    <div className={classes.cardContainer}>
+                    <div className={classes.cardDOContainer}>
                          <div className={classes.menuCard}>
                               {menuItems
                                    .filter(food => food.menu === "Drop Off Menu")
@@ -27,7 +23,6 @@ export default function DropOffMenu() {
                                    })}
                          </div>
                     </div>
-                    <button><Link to='/'>Back</Link></button>
                </div>
           </>
      )

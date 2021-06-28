@@ -5,7 +5,6 @@ import Reviews from '../components/reviews/reviews'
 import { ReviewsData } from '../components/reviews/reviewsData'
 import { SlideData } from '../components/image_slider/SlideData'
 import Menu from '../components/menu/menu'
-import About from '../components/about/about'
 import Contact from '../components/contact/contact'
 import classes from './pages.module.css'
 import menuItems from '../components/menu/menuData'
@@ -45,7 +44,7 @@ export default function Home({ setSelectedImg }) {
                          >
                     </div>
 
-          <div className={classes.aboutContainer}>
+          <div className={classes.aboutContainer}id="about" >
                <div className={classes.title}>
                     <h3>About Us</h3>
                     </div>
@@ -59,7 +58,6 @@ export default function Home({ setSelectedImg }) {
                     </div>
                     </div>
                </div>
-               {/* <About /> */}
                <Contact />
           </div>
      )

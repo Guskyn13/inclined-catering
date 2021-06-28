@@ -4,6 +4,7 @@
      width: 100vw;
      height: 1600px;
      font-family: 'Assistant', sans-serif;
+     background: #161616;
 }
 
 .mapContainer {
@@ -32,7 +33,7 @@
 
 .contactText i {
      font-size: 3.5rem;
-     color: yellow;
+     color: #F3A610;
 }
 
 .contactText span {
@@ -73,17 +74,25 @@
 
 .title {
      position: relative;
-     font-size: 2rem;
+     font-size: 3rem;
      display: flex;
      justify-content: center;
      align-items: center;
      height: 300px;
      text-transform: uppercase;
+     color: #F3A610;
 }
 
 .formContainer {
      padding-top: 25px;
-     border: 1px solid #000;
+     background: gray;
+     border: 3px solid #fff;
+     transition: 2s;
+}
+
+.formContainer:hover {
+     border: 3px solid #F3A610;
+
 }
 
 .formColumn {
@@ -96,6 +105,7 @@
      margin-top: 10px;
      font-size: 1.25rem;
      font-weight: bold;
+     color: #000;
 }
 
 .formColumn input {
@@ -127,4 +137,13 @@ textarea {
      padding: 10px;
      margin-top: 15px;
      margin-bottom: 15px;
+     border-radius: 10px;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     transition: 1.2s;
+}
+
+.submitBtn:hover {
+     background: #F3A610;
 }

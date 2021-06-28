@@ -1,14 +1,10 @@
-import { Link } from 'react-router-dom'
 import classes from './pages.module.css'
-import Navbar from '../components/navbar/navbar'
 import menuItems from '../components/menu/menuData'
-
 
 export default function Amuse() {
      return (
           <>
-               <div className={classes.mainContainer}>
-                    <Navbar />
+               <div className={classes.mainAContainer}>
                     <div className={classes.titleContainer}>
                          <h1>Amuse</h1>
                     </div>
@@ -27,7 +23,6 @@ export default function Amuse() {
                                    })}
                          </div>
                     </div>
-                    <button><Link to='/'>Back</Link></button>
                </div>
           </>
      )

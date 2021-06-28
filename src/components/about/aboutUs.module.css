@@ -36,7 +36,6 @@
      width: 400px;
      font-size: 3rem;
      color: #fff;
-     /* padding-top: 200px; */
 }
 
 .about_container h3 {
@@ -45,7 +44,7 @@
      align-items: center;
      width: 60%;
      padding: auto;
-     border-bottom: 3px solid #F1A638;
+     border-bottom: 3px solid #F3A610;
 }
 
 .right {

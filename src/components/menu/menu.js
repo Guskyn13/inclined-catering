@@ -38,7 +38,6 @@ export default function Menu() {
                     </div>
                     <MenuSelection menus={menus} foods={foods} filterItems={filterItems} />
                     <div className={menu.title}>
-                         {/* <h3 >Categories of Food</h3> */}
                     </div>
                     <Categories categories={categories} filterItems={filterItems} />
                </section>
