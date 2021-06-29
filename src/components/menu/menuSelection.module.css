@@ -33,7 +33,8 @@
 }
 
 .menu:hover {
-    background-color: #F3A610; 
+    background-color: #F3A610;
+    color: #000;
 }
 
 .cat {
