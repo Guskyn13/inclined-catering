@@ -101,6 +101,11 @@
      align-items: center;
 }
 
+::placeholder {
+     color: #000;
+     font-weight: bold;
+}
+
 .formColumn label {
      margin-top: 10px;
      font-size: 1.25rem;
@@ -114,9 +119,10 @@
      font-size: 1rem;
      outline: none;
      border: none;
-     border-bottom: 1.5px solid #000;
+     border-bottom: 2px solid #000;
      background: transparent;
      margin-top: 20px;
+     cursor: pointer;
 }
 
 textarea {

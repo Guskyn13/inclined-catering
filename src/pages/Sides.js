@@ -4,7 +4,7 @@ import menuItems from '../components/menu/menuData'
 export default function Sides() {
      return (
           <>
-               <div className={classes.mainContainer}>
+               <div className={classes.mainSidesContainer}>
                     <div className={classes.titleContainer}>
                          <h1>Sides</h1>
                     </div>

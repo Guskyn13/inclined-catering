@@ -4,7 +4,7 @@ import menuItems from '../components/menu/menuData'
 export default function Plated() {
      return (
           <>
-               <div className={classes.mainContainer}>
+               <div className={classes.mainPlatedContainer}>
                     <div className={classes.titleContainer}>
                          <h1>Plated</h1>
                     </div>

@@ -4,7 +4,7 @@ import menuItems from '../components/menu/menuData'
 export default function Entree() {
      return (
           <>
-               <div className={classes.mainContainer}>
+               <div className={classes.mainEntreeContainer}>
                     <div className={classes.titleContainer}>
                          <h1>Entree</h1>
                     </div>

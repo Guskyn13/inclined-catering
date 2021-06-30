@@ -4,7 +4,7 @@ import menuItems from '../components/menu/menuData'
 export default function Intermezzo() {
      return (
           <>
-               <div className={classes.mainContainer}>
+               <div className={classes.mainMezzoContainer}>
                     <div className={classes.titleContainer}>
                          <h1>Intermezzo</h1>
                     </div>

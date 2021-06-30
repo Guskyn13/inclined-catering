@@ -4,7 +4,7 @@ import menuItems from '../components/menu/menuData'
 export default function Cheesecake() {
      return (
           <>
-               <div className={classes.mainContainer}>
+               <div className={classes.mainChzcakeContainer}>
                     <div className={classes.titleContainer}>
                          <h1>Cheesecake</h1>
                     </div>
